@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25804EB14337C6712BF49EB8 /* libPods-BuglyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD1E7BC1AD9C018713F399D /* libPods-BuglyDemo.a */; };
+		97137E809B30FE2B6EB824EC /* libPods-BuglyDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD313011C9BA40FA9BB03FEB /* libPods-BuglyDemoTests.a */; };
+		AF93B6D5C0638CEBB70F7EC0 /* libPods-BuglyDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B717F59B3B53947957600BB /* libPods-BuglyDemoUITests.a */; };
+		FC1D46B421D7B6B100C6D464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D46B321D7B6B100C6D464 /* AppDelegate.m */; };
+		FC1D46B721D7B6B200C6D464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D46B621D7B6B200C6D464 /* ViewController.m */; };
+		FC1D46BA21D7B6B200C6D464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1D46B821D7B6B200C6D464 /* Main.storyboard */; };
+		FC1D46BC21D7B6B300C6D464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1D46BB21D7B6B300C6D464 /* Assets.xcassets */; };
+		FC1D46BF21D7B6B300C6D464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1D46BD21D7B6B300C6D464 /* LaunchScreen.storyboard */; };
+		FC1D46C221D7B6B300C6D464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D46C121D7B6B300C6D464 /* main.m */; };
+		FC1D46CC21D7B6B300C6D464 /* BuglyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D46CB21D7B6B300C6D464 /* BuglyDemoTests.m */; };
+		FC1D46D721D7B6B300C6D464 /* BuglyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D46D621D7B6B300C6D464 /* BuglyDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1D46C821D7B6B300C6D464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1D46A721D7B6B100C6D464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1D46AE21D7B6B100C6D464;
+			remoteInfo = BuglyDemo;
+		};
+		FC1D46D321D7B6B300C6D464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1D46A721D7B6B100C6D464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1D46AE21D7B6B100C6D464;
+			remoteInfo = BuglyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00033AF8C0F43D70AACE0F9D /* Pods-BuglyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuglyDemo/Pods-BuglyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2CEA448644FE31C93B18362D /* Pods-BuglyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuglyDemoTests/Pods-BuglyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		346DE4D330352CC5CBA7E58B /* Pods-BuglyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuglyDemoUITests/Pods-BuglyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B717F59B3B53947957600BB /* libPods-BuglyDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuglyDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A2665F8331C4A5157E4456 /* Pods-BuglyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuglyDemo/Pods-BuglyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD1E7BC1AD9C018713F399D /* libPods-BuglyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuglyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF68DFAEC293E9B00A224357 /* Pods-BuglyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuglyDemoTests/Pods-BuglyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F97F649C6E77F97A9DC37F5A /* Pods-BuglyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuglyDemoUITests/Pods-BuglyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC1D46AF21D7B6B100C6D464 /* BuglyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuglyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1D46B221D7B6B100C6D464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC1D46B321D7B6B100C6D464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC1D46B521D7B6B200C6D464 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC1D46B621D7B6B200C6D464 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC1D46B921D7B6B200C6D464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1D46BB21D7B6B300C6D464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC1D46BE21D7B6B300C6D464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC1D46C021D7B6B300C6D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1D46C121D7B6B300C6D464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1D46C721D7B6B300C6D464 /* BuglyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuglyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1D46CB21D7B6B300C6D464 /* BuglyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyDemoTests.m; sourceTree = "<group>"; };
+		FC1D46CD21D7B6B300C6D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1D46D221D7B6B300C6D464 /* BuglyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuglyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1D46D621D7B6B300C6D464 /* BuglyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyDemoUITests.m; sourceTree = "<group>"; };
+		FC1D46D821D7B6B300C6D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD313011C9BA40FA9BB03FEB /* libPods-BuglyDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuglyDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1D46AC21D7B6B100C6D464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25804EB14337C6712BF49EB8 /* libPods-BuglyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D46C421D7B6B300C6D464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97137E809B30FE2B6EB824EC /* libPods-BuglyDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D46CF21D7B6B300C6D464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF93B6D5C0638CEBB70F7EC0 /* libPods-BuglyDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215CB041670F533003B735E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A2665F8331C4A5157E4456 /* Pods-BuglyDemo.debug.xcconfig */,
+				00033AF8C0F43D70AACE0F9D /* Pods-BuglyDemo.release.xcconfig */,
+				BF68DFAEC293E9B00A224357 /* Pods-BuglyDemoTests.debug.xcconfig */,
+				2CEA448644FE31C93B18362D /* Pods-BuglyDemoTests.release.xcconfig */,
+				346DE4D330352CC5CBA7E58B /* Pods-BuglyDemoUITests.debug.xcconfig */,
+				F97F649C6E77F97A9DC37F5A /* Pods-BuglyDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		268E187D82159D6918433DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CD1E7BC1AD9C018713F399D /* libPods-BuglyDemo.a */,
+				FD313011C9BA40FA9BB03FEB /* libPods-BuglyDemoTests.a */,
+				6B717F59B3B53947957600BB /* libPods-BuglyDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1D46A621D7B6B100C6D464 = {
+			isa = PBXGroup;
+			children = (
+				FC1D46B121D7B6B100C6D464 /* BuglyDemo */,
+				FC1D46CA21D7B6B300C6D464 /* BuglyDemoTests */,
+				FC1D46D521D7B6B300C6D464 /* BuglyDemoUITests */,
+				FC1D46B021D7B6B100C6D464 /* Products */,
+				215CB041670F533003B735E7 /* Pods */,
+				268E187D82159D6918433DE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1D46B021D7B6B100C6D464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D46AF21D7B6B100C6D464 /* BuglyDemo.app */,
+				FC1D46C721D7B6B300C6D464 /* BuglyDemoTests.xctest */,
+				FC1D46D221D7B6B300C6D464 /* BuglyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1D46B121D7B6B100C6D464 /* BuglyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D46B221D7B6B100C6D464 /* AppDelegate.h */,
+				FC1D46B321D7B6B100C6D464 /* AppDelegate.m */,
+				FC1D46B521D7B6B200C6D464 /* ViewController.h */,
+				FC1D46B621D7B6B200C6D464 /* ViewController.m */,
+				FC1D46B821D7B6B200C6D464 /* Main.storyboard */,
+				FC1D46BB21D7B6B300C6D464 /* Assets.xcassets */,
+				FC1D46BD21D7B6B300C6D464 /* LaunchScreen.storyboard */,
+				FC1D46C021D7B6B300C6D464 /* Info.plist */,
+				FC1D46C121D7B6B300C6D464 /* main.m */,
+			);
+			path = BuglyDemo;
+			sourceTree = "<group>";
+		};
+		FC1D46CA21D7B6B300C6D464 /* BuglyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D46CB21D7B6B300C6D464 /* BuglyDemoTests.m */,
+				FC1D46CD21D7B6B300C6D464 /* Info.plist */,
+			);
+			path = BuglyDemoTests;
+			sourceTree = "<group>";
+		};
+		FC1D46D521D7B6B300C6D464 /* BuglyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D46D621D7B6B300C6D464 /* BuglyDemoUITests.m */,
+				FC1D46D821D7B6B300C6D464 /* Info.plist */,
+			);
+			path = BuglyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1D46AE21D7B6B100C6D464 /* BuglyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1D46DB21D7B6B300C6D464 /* Build configuration list for PBXNativeTarget "BuglyDemo" */;
+			buildPhases = (
+				63EE048D38C11DCA22E9F239 /* [CP] Check Pods Manifest.lock */,
+				FC1D46AB21D7B6B100C6D464 /* Sources */,
+				FC1D46AC21D7B6B100C6D464 /* Frameworks */,
+				FC1D46AD21D7B6B100C6D464 /* Resources */,
+				FC1D46E421D7BA0E00C6D464 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuglyDemo;
+			productName = BuglyDemo;
+			productReference = FC1D46AF21D7B6B100C6D464 /* BuglyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1D46C621D7B6B300C6D464 /* BuglyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1D46DE21D7B6B300C6D464 /* Build configuration list for PBXNativeTarget "BuglyDemoTests" */;
+			buildPhases = (
+				EBB4EC4DB2E720FE6A424F3E /* [CP] Check Pods Manifest.lock */,
+				FC1D46C321D7B6B300C6D464 /* Sources */,
+				FC1D46C421D7B6B300C6D464 /* Frameworks */,
+				FC1D46C521D7B6B300C6D464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1D46C921D7B6B300C6D464 /* PBXTargetDependency */,
+			);
+			name = BuglyDemoTests;
+			productName = BuglyDemoTests;
+			productReference = FC1D46C721D7B6B300C6D464 /* BuglyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC1D46D121D7B6B300C6D464 /* BuglyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1D46E121D7B6B300C6D464 /* Build configuration list for PBXNativeTarget "BuglyDemoUITests" */;
+			buildPhases = (
+				8B4C62167A3AF2E09EE02C2D /* [CP] Check Pods Manifest.lock */,
+				FC1D46CE21D7B6B300C6D464 /* Sources */,
+				FC1D46CF21D7B6B300C6D464 /* Frameworks */,
+				FC1D46D021D7B6B300C6D464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1D46D421D7B6B300C6D464 /* PBXTargetDependency */,
+			);
+			name = BuglyDemoUITests;
+			productName = BuglyDemoUITests;
+			productReference = FC1D46D221D7B6B300C6D464 /* BuglyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1D46A721D7B6B100C6D464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dangyuhua;
+				TargetAttributes = {
+					FC1D46AE21D7B6B100C6D464 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FC1D46C621D7B6B300C6D464 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC1D46AE21D7B6B100C6D464;
+					};
+					FC1D46D121D7B6B300C6D464 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC1D46AE21D7B6B100C6D464;
+					};
+				};
+			};
+			buildConfigurationList = FC1D46AA21D7B6B100C6D464 /* Build configuration list for PBXProject "BuglyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1D46A621D7B6B100C6D464;
+			productRefGroup = FC1D46B021D7B6B100C6D464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1D46AE21D7B6B100C6D464 /* BuglyDemo */,
+				FC1D46C621D7B6B300C6D464 /* BuglyDemoTests */,
+				FC1D46D121D7B6B300C6D464 /* BuglyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1D46AD21D7B6B100C6D464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1D46BF21D7B6B300C6D464 /* LaunchScreen.storyboard in Resources */,
+				FC1D46BC21D7B6B300C6D464 /* Assets.xcassets in Resources */,
+				FC1D46BA21D7B6B200C6D464 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D46C521D7B6B300C6D464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D46D021D7B6B300C6D464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63EE048D38C11DCA22E9F239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuglyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4C62167A3AF2E09EE02C2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuglyDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB4EC4DB2E720FE6A424F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuglyDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1D46E421D7BA0E00C6D464 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"a24c6760b0\"\n# #\nBUGLY_APP_KEY=\"40aac97c-792c-40e7-b6a0-192925ce06dc\"\n# #\nBUNDLE_IDENTIFIER=\"dangyuhua.BuglyDemo\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\nUPLOAD_DEBUG_SYMBOLS=1\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=1\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\necho \"--------------------------------\"\necho \"${1}\"\necho \"--------------------------------\"\nexit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\nP_APP_ID=\"$1\"\nP_APP_KEY=\"$2\"\nP_APP_BUNDLE_ID=\"$3\"\nP_APP_VERSION=\"$4\"\nP_BSYMBOL_ZIP_FILE=\"$5\"\n\n#\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\nP_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n\nDSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\necho \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n\necho \"-----------------------------\"\nSTATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\necho \"-----------------------------\"\n\nUPLOAD_RESULT=\"FAILTURE\"\necho \"Bugly server response: ${STATUS}\"\nif [ ! \"${STATUS}\" ]; then\necho \"Error: Failed to upload the zip archive file.\"\nelif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\necho \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\nUPLOAD_RESULT=\"SUCCESS\"\nelse\necho \"Error: Failed to upload the zip archive file to Bugly.\"\nfi\n\n#Remove temp dSYM archive\n#echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n#/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n\nif [ \"$?\" -ne 0 ]; then\nexitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\nfi\n\necho \"--------------------------------\"\necho \"${UPLOAD_RESULT} - dSYM upload complete.\"\n\nif [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\necho \"--------------------------------\"\necho \"Failed to upload the dSYM\"\necho \"Please check the script and try it again.\"\nfi\n}\n\n# .dSYM解析为bSYMBOL文件\nfunction dSYMParse() {\nDSYM_FILE=\"$1\"\nDSYM_SYMBOL_FILE=\"$2\"\n\necho \"--------------------------------\"\necho \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n(/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\necho \"--------------------------------\"\n\n}\n\n# 执行\nfunction run() {\n\nCONFIG_BUGLY_APP_ID=\"$1\"\nCONFIG_BUGLY_APP_KEY=\"$2\"\n\nCONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\nCONFIG_BUGLY_APP_VERSION=\"$4\"\nCONFIG_DSYM_SOURCE_DIR=\"$5\"\nCONFIG_DSYM_DEST_DIR=\"$6\"\nCONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n\n# 检查必须参数是否设置\nif [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\nexitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\nfi\n\nif [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\nexitWithMessage \"Error: Bugly App ID not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\nexitWithMessage \"Error: Bugly App Key not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\nexitWithMessage \"Error: Bundle Identifier not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\nexitWithMessage \"Error: App Version not defined.\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\nfi\n\nif [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nmkdir ${CONFIG_DSYM_DEST_DIR}\nfi\n\nDSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\nIFS=$'\\n'\n\necho \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\nRET=\"F\"\n\n#\nfor dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\nRET=\"T\"\necho \"Found dSYM file: $dsymFile\"\n\nDSYM_FILE_NAME=${dsymFile##*/}\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\nDSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n\nif [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\nif [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\nrm -f $DSYM_SYMBOL_ZIP_FILE\nfi\n# 如果只上传dSYM，直接压缩dSYM目录\nzip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\nelse\n# 使用符号表工具来生成Symbol文件\ndSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\nfi\n\n# 上传\ndSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\ndone\n\nif [ $RET = \"F\" ]; then\nexitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\nfi\n}\n\n# 在Xcode工程中执行\nfunction runInXcode(){\necho \"Uploading dSYM to Bugly in Xcode ...\"\n\necho \"Info.Plist : ${INFOPLIST_FILE}\"\n\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\nBUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n# 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\nif [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\nBUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\nelse\nBUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\nfi\n\necho \"--------------------------------\"\necho \"Prepare application information.\"\necho \"--------------------------------\"\n\necho \"Product Name: ${PRODUCT_NAME}\"\necho \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\necho \"Version: ${BUNDLE_SHORT_VERSION}\"\necho \"Build: ${BUNDLE_VERSION}\"\n\necho \"Bugly App ID: ${BUGLY_APP_ID}\"\necho \"Bugly App key: ${BUGLY_APP_KEY}\"\necho \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\necho \"--------------------------------\"\necho \"Check the arguments ...\"\n\n##检查模拟器编译是否允许上传符号\nif [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\nif [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否是Release模式编译\nif [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\nif [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否Archive操作\nif [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\nif [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\necho \"Archive the package\"\nelse\nexitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\nfi\nfi\n\n#\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n}\n\n# 根据Xcode的环境变量判断是否处于Xcode环境\nINFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n\nBuildInXcode=\"F\"\nif [ -f \"${INFO_PLIST_FILE}\" ]; then\nBuildInXcode=\"T\"\nfi\n\nif [ $BuildInXcode = \"T\" ]; then\nrunInXcode\nelse\necho \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n# 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\nBUGLY_APP_ID=\"$1\"\nBUGLY_APP_KEY=\"$2\"\nBUNDLE_IDENTIFIER=\"$3\"\nBUGLY_APP_VERSION=\"$4\"\nDWARF_DSYM_FOLDER_PATH=\"$5\"\nSYMBOL_OUTPUT_PATH=\"$6\"\nUPLOAD_DSYM_ONLY=$7\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1D46AB21D7B6B100C6D464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1D46B721D7B6B200C6D464 /* ViewController.m in Sources */,
+				FC1D46C221D7B6B300C6D464 /* main.m in Sources */,
+				FC1D46B421D7B6B100C6D464 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D46C321D7B6B300C6D464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1D46CC21D7B6B300C6D464 /* BuglyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D46CE21D7B6B300C6D464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1D46D721D7B6B300C6D464 /* BuglyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1D46C921D7B6B300C6D464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1D46AE21D7B6B100C6D464 /* BuglyDemo */;
+			targetProxy = FC1D46C821D7B6B300C6D464 /* PBXContainerItemProxy */;
+		};
+		FC1D46D421D7B6B300C6D464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1D46AE21D7B6B100C6D464 /* BuglyDemo */;
+			targetProxy = FC1D46D321D7B6B300C6D464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1D46B821D7B6B200C6D464 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1D46B921D7B6B200C6D464 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1D46BD21D7B6B300C6D464 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1D46BE21D7B6B300C6D464 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1D46D921D7B6B300C6D464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC1D46DA21D7B6B300C6D464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1D46DC21D7B6B300C6D464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A2665F8331C4A5157E4456 /* Pods-BuglyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = BuglyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.BuglyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1D46DD21D7B6B300C6D464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00033AF8C0F43D70AACE0F9D /* Pods-BuglyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = BuglyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.BuglyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC1D46DF21D7B6B300C6D464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF68DFAEC293E9B00A224357 /* Pods-BuglyDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = BuglyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.BuglyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuglyDemo.app/BuglyDemo";
+			};
+			name = Debug;
+		};
+		FC1D46E021D7B6B300C6D464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEA448644FE31C93B18362D /* Pods-BuglyDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = BuglyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.BuglyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuglyDemo.app/BuglyDemo";
+			};
+			name = Release;
+		};
+		FC1D46E221D7B6B300C6D464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346DE4D330352CC5CBA7E58B /* Pods-BuglyDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = BuglyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.BuglyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuglyDemo;
+			};
+			name = Debug;
+		};
+		FC1D46E321D7B6B300C6D464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97F649C6E77F97A9DC37F5A /* Pods-BuglyDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = BuglyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.BuglyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuglyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1D46AA21D7B6B100C6D464 /* Build configuration list for PBXProject "BuglyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1D46D921D7B6B300C6D464 /* Debug */,
+				FC1D46DA21D7B6B300C6D464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1D46DB21D7B6B300C6D464 /* Build configuration list for PBXNativeTarget "BuglyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1D46DC21D7B6B300C6D464 /* Debug */,
+				FC1D46DD21D7B6B300C6D464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1D46DE21D7B6B300C6D464 /* Build configuration list for PBXNativeTarget "BuglyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1D46DF21D7B6B300C6D464 /* Debug */,
+				FC1D46E021D7B6B300C6D464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1D46E121D7B6B300C6D464 /* Build configuration list for PBXNativeTarget "BuglyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1D46E221D7B6B300C6D464 /* Debug */,
+				FC1D46E321D7B6B300C6D464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1D46A721D7B6B100C6D464 /* Project object */;
+}
